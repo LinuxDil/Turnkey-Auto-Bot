@@ -10,19 +10,3 @@ Trunkey Testnet Auto Sent with bot
 </div>
 
 ---
-
-## ☕ Support Chelvin to stay creation
-
-<p align="center">
-  <a href="https://saweria.co/vinzsenzoo" target="_blank">
-    <img src="https://img.shields.io/badge/Saweria-Donate-orange?style=for-the-badge&logo=ko-fi" alt="Donate on Saweria" />
-  </a>
-</p>
-
-**Or via EVM Wallet:**
-```bash
-0xec9ab10d8b7A4113018853202C2FDd95072BC81f
-```
-> Supported networks: Ethereum, BSC, Arbitrum, Optimism, Polygon, ETC..
-
----
