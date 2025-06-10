@@ -1,5 +1,5 @@
 # Turnkey-Auto-Bot
-Trunkey Testnet Auto Sent with bot
+Turnkey Testnet Auto Sent with bot
 
 ## How to run? Join Our Telegram Channel
 
