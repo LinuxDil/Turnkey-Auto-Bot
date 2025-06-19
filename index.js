@@ -122,10 +122,10 @@ function clearTransactionLogs() {
 
 function loadPrivateKeys() {
   try {
-    const data = fs.readFileSync("pk.txt", "utf8");
+    const data = fs.readFileSync("privatekey.txt", "utf8");
     privateKeys = data.split("\n").map(key => key.trim()).filter(key => key.match(/^(0x)?[0-9a-fA-F]{64}$/));
-    if (privateKeys.length === 0) throw new Error("No valid private keys in pk.txt");
-    addLog(`Loaded ${privateKeys.length} private keys from pk.txt`, "success");
+    if (privateKeys.length === 0) throw new Error("No valid private keys in privatekey.txt");
+    addLog(`Loaded ${privateKeys.length} private keys from privatekey.txt`, "success");
   } catch (error) {
     addLog(`Failed to load private keys: ${error.message}`, "error");
     privateKeys = [];
